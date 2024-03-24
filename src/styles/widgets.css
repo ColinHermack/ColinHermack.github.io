@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 999px) {
+    nav {
+        background-color: var(--darkest-main);
+        color: var(--lighter-accent);
+        height: 100px;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+    }
+
+    nav a {
+        color: var(--lighter-accent);
+    }
+
+    #nav-home {
+        font-size: 1.5em;
+        margin-left: 15px;
+        font-weight: 700;
+        margin-right: 30px;
+    }
+
+    .nav-item {
+        margin: 30px;
+        font-weight: 200;
+        font-size: 1.2em;
+    }
+
+    .nav-item:hover {
+        color: var(--light-main);
+    }
+}

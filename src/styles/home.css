@@ -1,0 +1,9 @@
+:root {
+    --darkest-main: #05161A;
+    --darker-main: #072E33;
+    --dark-main: #0C7075;
+    --light-main: #0F969C;
+    --lighter-accent: #6DA5C0;
+    --darker-accent: #294D61;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoue UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', sans-serif;   
+}
