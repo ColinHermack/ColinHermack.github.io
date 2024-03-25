@@ -53,6 +53,7 @@ a {
         background-color: var(--darkest-main);
         color: var(--ligher-accent);
         height: 70px;
+        width: 100vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -92,6 +93,7 @@ a {
         flex-direction: column;
         justify-content: top;
         align-items: left;
+        opacity: 0.95;
     }
 
     #mobile-nav-close {

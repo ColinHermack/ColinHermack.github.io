@@ -5,5 +5,94 @@
     --light-main: #0F969C;
     --lighter-accent: #6DA5C0;
     --darker-accent: #294D61;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoue UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', sans-serif;   
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoue UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 
+    sans-serif;   
+}
+
+#home-container {
+    background-color: var(--darker-main);
+    color: var(--lighter-accent);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#headshot-main {
+    width: 250px;
+    border-radius: 50%;
+    margin: 50px auto 30px;
+}
+
+#name-main {
+    font-weight: 300;
+}
+
+#title-main {
+    font-weight: 300;
+    font-size: 1em;
+    width: 90%;
+    text-align: center;
+    max-width: 600px;
+}
+
+.horizontal-divider {
+    width: 90%;
+    height: 1px;
+    border-radius: 0.5px;
+    background-color: var(--lighter-accent);
+    margin: 20px;
+    max-width: 800px;
+}
+
+#description-main {
+    font-size: 1em;
+    font-weight: 300;
+    width: 90%;
+    text-align: center;
+    max-width: 600px;
+}
+
+#quick-links {
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#quick-links a {
+    color: var(--lighter-accent);
+}
+
+#quick-links a div {
+    border: 2px solid var(--lighter-accent);
+    border-radius: 30px;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    margin: 20px;
+}
+
+#quick-links a div:hover {
+    background-color: var(--lighter-accent);
+    color: var(--darker-main);
+}
+
+@media screen and (min-width: 1000px) {
+    #quick-links {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    #quick-links {
+        flex-direction: column;
+        justify-content: top;
+        align-items: center;
+    }
 }

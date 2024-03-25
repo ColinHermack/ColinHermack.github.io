@@ -1,6 +1,5 @@
 import React from 'react';
 import Obiwan from '../media/obiwan.jpg';
-import { NavigationBar } from '../widgets.js';
 
 const componentStyle = {
     width: '100vw',
