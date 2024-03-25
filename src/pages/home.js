@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/home.css';
-import { NavigationBar } from '../widgets.js';
+import { NavigationBar, FooterBar } from '../widgets.js';
 import Headshot from '../media/headshot.jpg';
 
 class Home extends React.Component {
@@ -23,6 +23,7 @@ class Home extends React.Component {
                     <a href='./resume'><div>My Resume</div></a>
                     <a href='./projects'><div>My Projects</div></a>
                 </div>
+                <FooterBar />
             </div>
         )
     }

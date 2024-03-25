@@ -6,6 +6,38 @@ a {
     text-decoration: none;
 }
 
+footer {
+    min-height: 150px;
+    width: 100vw;
+    background-color: var(--darkest-main);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#contact-options-container {
+    width: 100vw;
+    font-size: 1.5em;
+    margin: 30px auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#contact-options-container a {
+    color: var(--ligher-accent);
+}
+
+#contact-options-container a:hover {
+    color: var(--light-main);
+}
+
+#copyright-message {
+    font-weight: 300;
+}
+
 @media screen and (min-width: 1000px) {
     nav {
         background-color: var(--darkest-main);

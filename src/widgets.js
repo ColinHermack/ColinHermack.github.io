@@ -1,5 +1,5 @@
 import './styles/widgets.css';
-import { FaX, FaBars } from 'react-icons/fa';
+import { FaBars, FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 export const NavigationBar = () => {
     return (
@@ -17,5 +17,27 @@ export const NavigationBar = () => {
                 document.getElementById('nav-options-container').style.display = 'flex';
             }}><FaBars /></button>
         </nav>
+    );
+}
+
+export const FooterBar = () => {
+    const getCopyrightMessage = () => {
+        let date = new Date();
+        if (date.getFullYear() === 2024) {
+            return ("© Colin Hermack 2024");
+        } else {
+            return (`© Colin Hermack 2024-${date.getFullyYear()}`)
+        }
+    }
+
+    return (
+        <footer>
+            <div id='contact-options-container'>
+                <a href='mailto:colinhermack@gmail.com'><FaEnvelope /></a>
+                <a href='https://github.com/ColinHermack'><FaGithub /></a>
+                <a href='https://www.linkedin.com/in/colinhermack/'><FaLinkedin /></a>
+            </div>
+            <div id='copyright-message'>{getCopyrightMessage()}</div>
+        </footer>
     );
 }
