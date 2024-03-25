@@ -8,7 +8,6 @@ class Home extends React.Component {
         return (
             <div id='home-container'>
                 <NavigationBar />
-                Hello World
             </div>
         )
     }
