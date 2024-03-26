@@ -1,0 +1,146 @@
+{
+    "Education": 
+    [
+        {
+            "School": "Purdue University",
+            "Location": "West Lafayette, IN",
+            "Start": "August 2023",
+            "End": "December 2026",
+            "GPA": "4.0",
+            "Notes": 
+            [
+                "B.S. in Computer Science",
+                "Member of the Data Mine"
+            ],
+            "Courses": 
+            [
+                {
+                    "Name": "Problem Solving and Object-Oriented Programming",
+                    "Number": "CS180"
+                },
+                {
+                    "Name": "C Programming",
+                    "Number": "CS240"
+                },
+                {
+                    "Name": "Construction Management",
+                    "Number": "CM100"
+                },
+                {
+                    "Name": "Spanish III",
+                    "Number": "SPAN201"
+                }
+            ]
+        },
+        {
+            "School": "Lenape High School",
+            "Location": "Medford, NJ",
+            "Start": "September 2019",
+            "End": "June 2023",
+            "GPA": "4.0",
+            "Notes":
+            [
+                "SAT: 1550 (780 Math | 770 English)"
+            ],
+            "Courses": 
+            [
+                {
+                    "Name": "AP Calculus AB"
+                },
+                {
+                    "Name": "AP Computer Science A"
+                },
+                {
+                    "Name": "PLTW Engineering",
+                    "Number": "4 years"
+                }
+            ]
+        }
+    ],
+    "Experience": 
+    [
+        {
+            "Name": "Skyler's Hoagies",
+            "Position": "Restaurant Crew Member",
+            "Location": "Mount Laurel, NJ",
+            "Start": "June 2020",
+            "End": "December 2023",
+            "Notes": 
+            [
+                "Performed a variety of roles in a fast-paced training enviroment",
+                "Customer service, cash handling, training new hires"
+            ]
+        },
+        {
+            "Name": "Project Lead the Way",
+            "Position": "Capstone Project",
+            "Location": "Medford, NJ",
+            "Start": "September 2020",
+            "End": "June 2023",
+            "Notes":
+            [
+                "Worked with a small team to develop a system for water quality monitoring in natural enviroments utilizing Arduino and C++"
+            ]
+        }
+    ],
+    "Leadership":
+    [
+        {
+            "Position": "Cross Country/Track and Field Captain",
+            "Notes": 
+            [
+                "Selected as varsity cross country and track and field captain by coaching staff",
+                "Coordinated training sessions and social events",
+                "Led practices for 50+ athletes"
+            ]
+        }
+    ],
+    "Awards": 
+    [
+        {
+            "Award": "Purdue University Dean's List and Semester Honors",
+            "Date": "December 2023",
+            "Notes": 
+            [
+                "Awarded after achieving a GPA of 4.0 during first semester"
+            ]
+        },
+        {
+            "Award": "National Merit Scholarship",
+            "Date": "February 2023",
+            "Notes":
+            [
+                "Selected to receive one of 3,000 university-sponsored scholarships awarded nationally"
+            ]
+        },
+        {
+            "Award": "AP Scholar with Distinction",
+            "Date": "July 2023",
+            "Notes":
+            [
+                "Received in 2022 and 2023 after scoring a 5 on all 9 AP Exams taken"
+            ]
+        }
+    ],
+    "Certifications":
+    [
+        "Responsive Web Design",
+        "JavaScript Algorithms and Data Structures",
+        "Scientific Computing with Python",
+        "Front-End Development Libraries"
+    ],
+    "Skills":
+    [
+        "Java",
+        "Python",
+        "C",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "SQLite",
+        "NodeJS",
+        "Express",
+        "Microsoft Excel"
+    ]
+}

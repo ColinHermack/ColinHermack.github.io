@@ -3,7 +3,7 @@
     --darker-main: #072E33;
     --dark-main: #0C7075;
     --light-main: #0F969C;
-    --lighter-accent: #6DA5C0;
+    --lighter-accent: #8db6cb;
     --darker-accent: #294D61;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoue UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 
     sans-serif;   
@@ -26,11 +26,11 @@
 }
 
 #name-main {
-    font-weight: 300;
+    font-weight: 200;
 }
 
 #title-main {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1em;
     width: 90%;
     text-align: center;
@@ -48,7 +48,7 @@
 
 #description-main {
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 200;
     width: 90%;
     text-align: center;
     max-width: 600px;
@@ -72,7 +72,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 300;
+    font-weight: 200;
     margin: 20px;
 }
 

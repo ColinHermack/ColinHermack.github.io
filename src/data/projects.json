@@ -1,0 +1,82 @@
+[
+    {
+        "Name": "Personal Website",
+        "Short Description": "My personal website which showcases my resume, projects, and things I find interesting",
+        "Technologies": 
+        [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "ReactJS"
+        ],
+        "GitHub": "https://github.com/ColinHermack/new-personal-website",
+        "Live": "https://colinhermack.me/",
+        "Pinned": false
+    },
+    {
+        "Name": "Purdue Tier List Maker",
+        "Short Description": "A project I built in two hours as a joke because I was bored.",
+        "Technologies": 
+        [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "GitHub": "https://github.com/ColinHermack/Purdue-Buildings-Tier-List",
+        "Live": "https://colinhermack.me/Purdue-Buildings-Tier-List/",
+        "Pinned": false
+    },
+    {
+        "Name": "CS180 Capstone Project",
+        "Short Description": "Built a database driver and concurrent server using Java for a virtual marketplace application. Collaborated with four other students to receive a perfect score.",
+        "Technologies":
+        [
+            "Java",
+            "SQL"
+        ],
+        "Pinned": false
+    },
+    {
+        "Name": "Apple Weather Web Clone",
+        "Short Description": "A web app that uses the OpenMeteo API to deliver accurate real-time weather forecasting. Built with the goal of recreating all functionality of Apple's weather app.",
+        "Technologies":
+        [
+            "HTML",
+            "CSS",
+            "ReactJS"
+        ],
+        "GitHub": "https://github.com/ColinHermack/Radar-Weather-App",
+        "Live": "https://colin-weather-app-2.netlify.app/",
+        "Pinned": true
+    },
+    {
+        "Name": "Twitter Clone",
+        "Short Description": "An ongoing project that aims to recreate the functionality of Twitter (X).",
+        "Technologies": 
+        [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "SQL",
+            "ReactJS",
+            "NodeJS",
+            "Express"
+        ]
+    },
+    {
+        "Name": "Purdue Outing Club Website",
+        "Short Description": "A collaborative, long-term project with the end goal of centralizing all data and automating tasks for the Purdue Outing Club.",
+        "Technologies":
+        [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "SQL",
+            "ReactJS",
+            "NodeJS",
+            "Express",
+            "HelmetJS"
+        ],
+        "Pinned": false
+    }
+]
