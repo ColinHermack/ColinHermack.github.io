@@ -10,13 +10,14 @@
 }
 
 #home-container {
-    background-color: var(--darker-main);
+    background-image: linear-gradient(to bottom right, var(--darker-main), var(--dark-main));
     color: var(--lighter-accent);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: top;
     align-items: center;
+    text-shadow: var(--darkest-main) 1px 0 10px;
 }
 
 #headshot-main {
@@ -62,6 +63,7 @@
 
 #quick-links a {
     color: var(--lighter-accent);
+    text-shadow: none;
 }
 
 #quick-links a div {
@@ -74,6 +76,7 @@
     align-items: center;
     font-weight: 200;
     margin: 20px;
+    text-shadow: none;
 }
 
 #quick-links a div:hover {

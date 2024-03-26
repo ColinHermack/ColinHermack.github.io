@@ -1,7 +1,7 @@
 #resume-container {
     width: 100vw;
     min-height: 100vh;
-    background-color: var(--darker-main);
+    background-image: linear-gradient(to bottom right, var(--darker-main), var(--dark-main));
     border: 1px solid var(--darker-main);
     color: var(--lighter-accent);
     font-weight: 200;
@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: top;
     align-items: center;
+    text-shadow: var(--darkest-main) 1px 0 10px;
 }
 
 h1 {
