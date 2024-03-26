@@ -1,0 +1,54 @@
+#resume-container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: var(--darker-main);
+    border: 1px solid var(--darker-main);
+    color: var(--lighter-accent);
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+}
+
+.education-experience-item-container {
+    width: 90%;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.education-experience-header {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.institution-position {
+    font-size: 1.2em;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.time-period {
+    font-size: 0.9em;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.education-experience-item-container ul {
+    width: 95%;
+    font-size: 0.9em;
+}
