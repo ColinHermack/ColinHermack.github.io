@@ -11,6 +11,7 @@ export const NavigationBar = () => {
                 }}>X</button>
                 <a href='./resume' className='nav-item'>Resume</a>
                 <a href='./projects' className='nav-item'>Projects</a>
+                <a href='./education' className='nav-item'>Education</a>
                 <a href='./endeavors' className='nav-item'>Endeavors</a>
             </div>
             <button id='mobile-nav-open' onClick={() => {

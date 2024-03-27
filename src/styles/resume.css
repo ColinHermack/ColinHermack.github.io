@@ -9,7 +9,6 @@
     flex-direction: column;
     justify-content: top;
     align-items: center;
-    text-shadow: var(--darkest-main) 1px 0 10px;
 }
 
 h1 {
@@ -52,4 +51,9 @@ h1 {
 .education-experience-item-container ul {
     width: 95%;
     font-size: 0.9em;
+}
+
+.certifications-skills-list {
+    font-size: 0.9em;
+
 }

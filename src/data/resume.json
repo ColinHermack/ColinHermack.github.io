@@ -60,7 +60,7 @@
     "Experience": 
     [
         {
-            "Name": "Skyler's Hoagies",
+            "Organization": "Skyler's Hoagies",
             "Position": "Restaurant Crew Member",
             "Location": "Mount Laurel, NJ",
             "Start": "June 2020",
@@ -72,7 +72,7 @@
             ]
         },
         {
-            "Name": "Project Lead the Way",
+            "Organization": "Project Lead the Way",
             "Position": "Capstone Project",
             "Location": "Medford, NJ",
             "Start": "September 2020",
@@ -87,6 +87,8 @@
     [
         {
             "Position": "Cross Country/Track and Field Captain",
+            "Start": "June 2022",
+            "End": "June 2023",
             "Notes": 
             [
                 "Selected as varsity cross country and track and field captain by coaching staff",
@@ -140,7 +142,6 @@
         "ReactJS",
         "SQLite",
         "NodeJS",
-        "Express",
-        "Microsoft Excel"
+        "Express"
     ]
 }
