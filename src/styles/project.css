@@ -39,3 +39,21 @@
 #quick-project-links a:hover {
     color: var(--light-main);
 }
+
+.project-image {
+    width: 500px;
+    height: auto;
+    max-width: 90vw;
+    margin: 10px;
+}
+
+#project-images-container {
+    width: 100vw;
+    display: flex;
+}
+
+#project-images-container {
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}

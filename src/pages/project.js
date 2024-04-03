@@ -39,7 +39,15 @@ class Project extends React.Component {
             return null;
         }
 
-        console.log(this.state.project);
+        const ImageViewer = () => {
+            if (this.state.project.Images) {
+                return(this.state.project.Images.map((path) => {
+                    return <img src={path} alt="project screenshot" className='project-image'/>
+                }));
+            }
+            return null;
+        }
+
         if (this.state.project) {
             return (
             <div id='project-container'>
@@ -54,8 +62,7 @@ class Project extends React.Component {
                 <div id='long-description'>{this.state.project['Long Description']}</div>
                 <div className='horizontal-divider'></div>
                 <div id='project-images-container'>  
-                    {this.state.project.Images.map((path) => {
-                    })}
+                    <ImageViewer />
                 </div>
                 <FooterBar />
             </div>)

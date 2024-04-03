@@ -42,9 +42,9 @@
         "Long Description": "I decided to build this app out of frustration with the fact that every free weather app I could find was either slow, inaccurate, had a terrible UI, or some combination of the three. I liked the user interface of Apple Weather, but it's accuracy has been dubious since Apple switched over to their own forecasting models. The design of this app is obviously heavily influenced by Apple Weather, but it uses the OpenMeteo and National Weather Service APIs for its data, and the OpenMeteo geolocation API for location searching. It also uses the Maptiler JavaScript SDK for map data.",
         "Images": 
         [
-            "../media/projects/weather-home.png",
-            "../media/projects/weather-wind-map.png",
-            "../media/projects/weather-alert.png"
+            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/weather-home.png?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/weather-wind-map.png?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/weather-alert.png?raw=true"
         ],
         "Technologies":
         [
@@ -59,6 +59,11 @@
     {
         "Name": "Twitter Clone",
         "Short Description": "An ongoing project that aims to recreate the functionality of Twitter (X).",
+        "Long Description": "This is the first full-stack project I ever worked on, mostly because I was bored over winter break. It basically aims to copy Twitter as closely as possible. I haven't finished it yet because there hasn't been much time to work on it during the semester, but hopefully it will be finished eventually.",
+        "Images":
+        [
+            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/TwitterCloneLanding.png?raw=true"
+        ],
         "Technologies": 
         [
             "JavaScript",
