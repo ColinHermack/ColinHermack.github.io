@@ -2,7 +2,6 @@ import React from 'react';
 import '../styles/project.css';
 import { NavigationBar, FooterBar } from '../widgets.js';
 import { FaGithub, FaServer } from 'react-icons/fa';
-const weatherImg = require('../media/projects/weather-home.png');
 
 class Project extends React.Component {
     constructor(props) {
