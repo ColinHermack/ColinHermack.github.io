@@ -14,7 +14,8 @@ class Home extends React.Component {
                 <h2 id='title-main'>Computer Science and Mathematics Student at Purdue University</h2>
                 <div className='horizontal-divider'></div>
                 <div id='description-main'>I am a freshman pursuing a double major in computer science
-                and mathematics at Purdue University. I am also experienced in full-stack web development
+                and mathematics at Purdue University, and an incoming software engineering intern at W.R. Berkley under
+                E & S Tech. I am also experienced in full-stack web development
                 with a concentration in front end development. This website showcases my experience,
                 projects, and other things I find interesting, want to share, or just think would be a cool
                 feature to put on a website.</div>

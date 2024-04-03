@@ -1,0 +1,71 @@
+.filler {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, var(--darker-main), var(--dark-main));
+}
+
+#projects-container {
+    background-image: linear-gradient(to bottom right, var(--darker-main), var(--dark-main));
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: var(--lighter-accent);
+}
+
+a {
+    color: var(--lighter-accent);
+}
+
+.project-container {
+    border: 2px solid var(--darkest-main);
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 90vw;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 800px;
+    margin: 10px;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+.project-description {
+    font-size: 0.9em;
+    margin: 10px;
+}
+
+.project-technologies {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 15px 0px;
+    flex-wrap: wrap;
+}
+
+.project-technologies div {
+    margin: 5px;
+    font-size: 0.9em;
+    color: var(--light-main);
+}
+
+.project-container:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.project-github {
+    color: var(--lighter-accent);
+    margin: 10px;
+    font-size: 1.6em;
+}
+
+.project-deployment {
+    color: var(--lighter-accent);
+    margin: 10px;
+    font-size: 1.6em;
+}

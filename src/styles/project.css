@@ -1,0 +1,41 @@
+#project-container {
+    background-image: linear-gradient(to bottom right, var(--darker-main), var(--dark-main));
+    color: var(--lighter-accent);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+#short-description {
+    font-weight: 200;
+    font-size: 1.3em;
+    max-width: 800px;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+#long-description {
+    font-weight: 200;
+    max-width: 800px;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+#quick-project-links {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#quick-project-links a {
+    font-size: 1.8em;
+    margin: 0px 75px;
+}
+
+#quick-project-links a:hover {
+    color: var(--light-main);
+}

@@ -39,6 +39,13 @@
     {
         "Name": "Apple Weather Web Clone",
         "Short Description": "A web app that uses the OpenMeteo API to deliver accurate real-time weather forecasting. Built with the goal of recreating all functionality of Apple's weather app.",
+        "Long Description": "I decided to build this app out of frustration with the fact that every free weather app I could find was either slow, inaccurate, had a terrible UI, or some combination of the three. I liked the user interface of Apple Weather, but it's accuracy has been dubious since Apple switched over to their own forecasting models. The design of this app is obviously heavily influenced by Apple Weather, but it uses the OpenMeteo and National Weather Service APIs for its data, and the OpenMeteo geolocation API for location searching. It also uses the Maptiler JavaScript SDK for map data.",
+        "Images": 
+        [
+            "../media/projects/weather-home.png",
+            "../media/projects/weather-wind-map.png",
+            "../media/projects/weather-alert.png"
+        ],
         "Technologies":
         [
             "HTML",
@@ -61,7 +68,8 @@
             "ReactJS",
             "NodeJS",
             "Express"
-        ]
+        ],
+        "Pinned": true
     },
     {
         "Name": "Purdue Outing Club Website",

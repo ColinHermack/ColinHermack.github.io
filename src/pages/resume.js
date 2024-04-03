@@ -30,9 +30,9 @@ class Resume extends React.Component {
                                 </div>
                                 <ul>
                                     {item.Notes.map((currNote) => {
-                                        return(<li>{currNote}</li>)
+                                        return(<li key={currNote}>{currNote}</li>)
                                     })}
-                                    <li>{`GPA: ${item.GPA}`}</li>
+                                    <li key='gpa'>{`GPA: ${item.GPA}`}</li>
                                 </ul>
                             </div>
                         )
@@ -48,7 +48,7 @@ class Resume extends React.Component {
                                 </div>
                                 <ul>
                                     {item.Notes.map((currNote) => {
-                                        return(<li>{currNote}</li>)
+                                        return(<li key={currNote}>{currNote}</li>)
                                     })}
                                 </ul>
                             </div>
@@ -65,7 +65,7 @@ class Resume extends React.Component {
                                 </div>
                                 <ul>
                                     {item.Notes.map((currNote) => {
-                                        return(<li>{currNote}</li>)
+                                        return(<li key={currNote}>{currNote}</li>)
                                     })}
                                 </ul>
                             </div>
@@ -82,7 +82,7 @@ class Resume extends React.Component {
                                 </div>
                                 <ul>
                                     {item.Notes.map((currNote) => {
-                                        return(<li>{currNote}</li>)
+                                        return(<li key={currNote}>{currNote}</li>)
                                     })}
                                 </ul>
                             </div>
@@ -92,14 +92,14 @@ class Resume extends React.Component {
                     <div className='horizontal-divider'></div>
                     <ul className='certifications-skills-list'>
                         {this.state.resume.Certifications.map((item) => {
-                            return (<li>{item}</li>)
+                            return (<li key={item}>{item}</li>)
                         })}
                     </ul>
                     <h1>Experience In</h1>
                     <div className='horizontal-divider'></div>
                     <ul className='certifications-skills-list'>
                         {this.state.resume.Skills.map((item) => {
-                            return (<li>{item}</li>)
+                            return (<li key={item}>{item}</li>)
                         })}
                     </ul>
                     <FooterBar />

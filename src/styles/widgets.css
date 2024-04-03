@@ -15,6 +15,7 @@ footer {
     justify-content: top;
     align-items: center;
     margin-top: 20px;
+    color: var(--lighter-accent);
 }
 
 #contact-options-container {
