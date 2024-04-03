@@ -50,6 +50,7 @@
 #project-images-container {
     width: 100vw;
     display: flex;
+    min-height: 45vh;
 }
 
 #project-images-container {

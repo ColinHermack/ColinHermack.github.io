@@ -7,6 +7,7 @@
     --darker-accent: #294D61;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoue UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 
     sans-serif;   
+    background-color: var(--darkest-main);
 }
 
 #home-container {
