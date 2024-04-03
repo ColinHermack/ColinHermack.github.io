@@ -1,6 +1,22 @@
 [
     {
-        "Name": "Personal Website",
+        "Name": "purdueoutingclub.com",
+        "Short Description": "A collaborative, long-term project with the end goal of centralizing all data and automating tasks for the Purdue Outing Club.",
+        "Technologies":
+        [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "SQL",
+            "ReactJS",
+            "NodeJS",
+            "Express",
+            "HelmetJS"
+        ],
+        "Pinned": false
+    },
+    {
+        "Name": "colinhermack.me",
         "Short Description": "My personal website which showcases my resume, projects, and things I find interesting",
         "Technologies": 
         [
@@ -16,6 +32,12 @@
     {
         "Name": "Purdue Tier List Maker",
         "Short Description": "A project I built in two hours as a joke because I was bored.",
+        "Long Description": "McCutcheon is superior to all.",
+        "Images":
+        [
+            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/TierListBuildings.png?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/TierListMajors.png?raw=true"
+        ],
         "Technologies": 
         [
             "HTML",
@@ -62,7 +84,8 @@
         "Long Description": "This is the first full-stack project I ever worked on, mostly because I was bored over winter break. It basically aims to copy Twitter as closely as possible. I haven't finished it yet because there hasn't been much time to work on it during the semester, but hopefully it will be finished eventually.",
         "Images":
         [
-            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/TwitterCloneLanding.png?raw=true"
+            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/TwitterCloneLanding.png?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/src/media/projects/TwitterCloneCreateAccount.png?raw=true"
         ],
         "Technologies": 
         [
@@ -75,21 +98,5 @@
             "Express"
         ],
         "Pinned": true
-    },
-    {
-        "Name": "Purdue Outing Club Website",
-        "Short Description": "A collaborative, long-term project with the end goal of centralizing all data and automating tasks for the Purdue Outing Club.",
-        "Technologies":
-        [
-            "JavaScript",
-            "HTML",
-            "CSS",
-            "SQL",
-            "ReactJS",
-            "NodeJS",
-            "Express",
-            "HelmetJS"
-        ],
-        "Pinned": false
     }
 ]
