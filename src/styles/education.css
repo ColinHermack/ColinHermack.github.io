@@ -1,0 +1,65 @@
+#education-container {
+    color: var(--lighter-accent);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, var(--darker-main), var(--dark-main));
+}
+
+h2 {
+    font-weight: 200;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.institution-info {
+    width: 90vw;
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 200;
+}
+
+.education-header {
+    font-size: 1.4em;
+}
+
+.term-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.term-header {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 15px;
+    font-weight: 200;
+}
+
+.class-container {
+    width: 90vw;
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid var(--darkest-main);
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-description {
+    margin: 5px;
+    font-size: 0.8em;
+}

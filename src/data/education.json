@@ -6,8 +6,111 @@
         "End": 2023,
         "Classes": 
         [
+
             {
-                "Term": "Freshman",
+                "Term": "Senior Year",
+                "Classes": 
+                [
+                    {
+                        "Name": "AP Physics C",
+                        "Description" : "Mechanics and electricity in one."
+                    },
+                    {
+                        "Name": "English IV",
+                        "Description": "Harder harder English but harder."
+                    },
+                    {
+                        "Name": "Engineering Design and Development",
+                        "Description": "Yearlong capstone project where a partner and I developed a water-quality monitoring system."
+                    },
+                    {
+                        "Name": "AP World History: Modern",
+                        "Description": "Modern world history starting with the fall of the Roman Empire."
+                    },
+                    {
+                        "Name": "Spanish IV",
+                        "Description": "Harder harder Spanish but harder."
+                    },
+                    {
+                        "Name": "AP Economics",
+                        "Description": "Macroeconomics and microeconomics in one class. A very interesting class that has made me consider an economics minor in college."
+                    },
+                    {
+                        "Name": "AP Calculus BC",
+                        "Description": "Potentially my favorite class I took in high school and what made me seriously consider double majoring in math."
+                    }
+                ]
+            },
+            {
+                "Term": "Junior Year",
+                "Classes": 
+                [
+                    {
+                        "Name": "AP Chemistry",
+                        "Description": "Two full semesters of college-level chemistry and labs in one high school year."
+                    },
+                    {
+                        "Name": "AP Physics I",
+                        "Description": "No calculus."
+                    },
+                    {
+                        "Name": "AP Calculus AB",
+                        "Description": "A very interesting class and the one that made me want to be a math major."
+                    },
+                    {
+                        "Name": "AP Language and Composition",
+                        "Description": "Harder English but harder."
+                    },
+                    {
+                        "Name": "AP US History",
+                        "Description": "The final boss of AP Exams."
+                    },
+                    {
+                        "Name": "Principles of Engineering",
+                        "Description": "Engineering with physics."
+                    },
+                    {
+                        "Name": "Spanish III",
+                        "Description": "Harder Spanish but harder."
+                    }
+                ]
+            },
+            {
+                "Term": "Sophomore Year",
+                "Classes":
+                [
+                    {
+                        "Name": "Honors Spanish II",
+                        "Description": "Spanish but harder."
+                    },
+                    {
+                        "Name": "Honors Computer Integrated Manufacturing",
+                        "Description": "Second year PLTW Engineering course which shockingly focuses on computers and manufacturing."
+                    },
+                    {
+                        "Name": "Honors US History I",
+                        "Description": "US History to the Reconstruction Era."
+                    },
+                    {
+                        "Name": "Honors Precalculus",
+                        "Description": "A class with a scary reputation that was not actually that hard."
+                    },
+                    {
+                        "Name": "Honors Chemistry",
+                        "Description": "Basic chemistry."
+                    },
+                    {
+                        "Name": "English II",
+                        "Description": "English but harder."
+                    },
+                    {
+                        "Name": "AP Computer Science",
+                        "Description": "Java programming and the class that made me want to be a computer science major."
+                    }
+                ]
+            },
+            {
+                "Term": "Freshman Year",
                 "Classes": 
                 [
                     {
@@ -32,113 +135,11 @@
                     },
                     {
                         "Name": "Honors English I",
-                        "Description": "English"
+                        "Description": "English."
                     },
                     {
                         "Name": "Spanish I",
-                        "Description": "Spanish"
-                    }
-                ]
-            },
-            {
-                "Term": "Sophomore",
-                "Classes":
-                [
-                    {
-                        "Name": "Honors Spanish II",
-                        "Description": "Spanish but harder"
-                    },
-                    {
-                        "Name": "Honors Computer Integrated Manufacturing",
-                        "Description": "Second year PLTW Engineering course which shockingly focuses on computers and manufacturing."
-                    },
-                    {
-                        "Name": "Honors US History I",
-                        "Description": "US History to the Reconstruction Era"
-                    },
-                    {
-                        "Name": "Honors Precalculus",
-                        "Description": "A class with a scary reputation that was not actually that hard."
-                    },
-                    {
-                        "Name": "Honors Chemistry",
-                        "Description": "Basic chemistry"
-                    },
-                    {
-                        "Name": "English II",
-                        "Description": "English but harder"
-                    },
-                    {
-                        "Name": "AP Computer Science",
-                        "Description": "Java programming and the class that made me want to be a computer science major."
-                    }
-                ]
-            },
-            {
-                "Term": "Junior",
-                "Classes": 
-                [
-                    {
-                        "Name": "AP Chemistry",
-                        "Description": "Chemistry but harder"
-                    },
-                    {
-                        "Name": "AP Physics I",
-                        "Description": "No calculus"
-                    },
-                    {
-                        "Name": "AP Calculus AB",
-                        "Description": "A very interesting class and the one that made me want to be a math major."
-                    },
-                    {
-                        "Name": "AP Language and Composition",
-                        "Description": "Harder English but harder."
-                    },
-                    {
-                        "Name": "AP US History",
-                        "Description": "The final boss of AP Exams"
-                    },
-                    {
-                        "Name": "Principles of Engineering",
-                        "Description": "Engineering with physics"
-                    },
-                    {
-                        "Name": "Spanish III",
-                        "Description": "Harder Spanish but harder"
-                    }
-                ]
-            },
-            {
-                "Term": "Senior",
-                "Classes": 
-                [
-                    {
-                        "Name": "AP Physics C",
-                        "Description" : "Mechanics and electricity in one"
-                    },
-                    {
-                        "Name": "English IV",
-                        "Description": "Harder harder English but harder"
-                    },
-                    {
-                        "Name": "Engineering Design and Development",
-                        "Description": "Yearlong capstone project where a partner and I developed a water-quality monitoring system"
-                    },
-                    {
-                        "Name": "AP World History: Modern",
-                        "Description": "Modern world history starting with the fall of the Roman Empire."
-                    },
-                    {
-                        "Name": "Spanish IV",
-                        "Description": "Harder harder Spanish but harder"
-                    },
-                    {
-                        "Name": "AP Economics",
-                        "Description": "Macroeconomics and microeconomics in one class. A very interesting class that has made me consider an economics minor in college."
-                    },
-                    {
-                        "Name": "AP Calculus BC",
-                        "Description": "Potentially my favorite class I took in high school and what made me seriously consider double majoring in math."
+                        "Description": "Spanish."
                     }
                 ]
             }
@@ -151,37 +152,6 @@
         "End": "Present",
         "Classes": 
         [
-            {
-                "Term": "Semester 1",
-                "Classes":
-                [
-                    {
-                        "Name": "Problem Solving and Object-Oriented Programming",
-                        "Number": "CS180",
-                        "Description": "Introduction to programming in Java for computer science majors. Control flow, objects, classes, interfaces, inheritance, GUI programming, concurrency, basic data structures."
-                    },
-                    {
-                        "Name": "Multivariate Calculus",
-                        "Number": "MA261",
-                        "Description": "Multivariable calculus. Vectors, partial differentiation, double and triple integrals, various theorems."
-                    },
-                    {
-                        "Name": "Spanish III",
-                        "Number": "SPAN201",
-                        "Description": "Third semester Spanish. Everything from the difference between ser and estar to the subjunctive mood."
-                    },
-                    {
-                        "Name": "Tools",
-                        "Number": "CS193",
-                        "Description": "Seminar class covering basic skills that computer science majors need to know. Configuring and using Vim, using ssh, terminal commands, compiling C files, debugging C programs."
-                    },
-                    {
-                        "Name": "The Data Mine",
-                        "Number": "TDM101",
-                        "Description": "Seminar on data analysis with R."
-                    }
-                ]
-            },
             {
                 "Term": "Semester 2",
                 "Classes": 
@@ -210,6 +180,37 @@
                         "Name": "The Data Mine",
                         "Number": "TDM102",
                         "Description": "Seminar on data analysis with Python."
+                    }
+                ]
+            },
+            {
+                "Term": "Semester 1",
+                "Classes":
+                [
+                    {
+                        "Name": "Problem Solving and Object-Oriented Programming",
+                        "Number": "CS180",
+                        "Description": "Introduction to programming in Java for computer science majors. Control flow, objects, classes, interfaces, inheritance, GUI programming, concurrency, basic data structures."
+                    },
+                    {
+                        "Name": "Multivariate Calculus",
+                        "Number": "MA261",
+                        "Description": "Multivariable calculus. Vectors, partial differentiation, double and triple integrals, various theorems."
+                    },
+                    {
+                        "Name": "Spanish III",
+                        "Number": "SPAN201",
+                        "Description": "Third semester Spanish. Everything from the difference between ser and estar to the subjunctive mood."
+                    },
+                    {
+                        "Name": "Tools",
+                        "Number": "CS193",
+                        "Description": "Seminar class covering basic skills that computer science majors need to know. Configuring and using Vim, using ssh, terminal commands, compiling C files, debugging C programs."
+                    },
+                    {
+                        "Name": "The Data Mine",
+                        "Number": "TDM101",
+                        "Description": "Seminar on data analysis with R."
                     }
                 ]
             }
