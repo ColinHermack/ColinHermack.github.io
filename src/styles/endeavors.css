@@ -1,0 +1,41 @@
+#endeavors-container {
+    background-image: linear-gradient(to bottom right, var(--darker-main), var(--dark-main));
+    color: var(--lighter-accent);
+}
+
+#menu-items-container {
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
+
+.endeavor-item {
+    border: 2px solid var(--darkest-main);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    width: 90vw;
+    height: 100px;
+    max-width: 600px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    font-weight: 200;
+}
+
+.endeavor-item:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.endeavor-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.endeavor-description {
+    padding-left: 10px;
+}

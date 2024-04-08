@@ -6,6 +6,7 @@ import Resume from './pages/resume.js';
 import Projects from './pages/projects.js';
 import Project from './pages/project.js';
 import Education from './pages/education.js';
+import Endeavors from './pages/endeavors.js';
 import PageNotFound from './pages/unknown.js';
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
                 <Route path="resume" element={<Resume />} />
                 <Route path="projects" element={<Projects />} />
                 <Route path="education" element={<Education />} />
+                <Route path="endeavors" element={<Endeavors />} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes>
         </BrowserRouter>

@@ -1,0 +1,104 @@
+{
+    "Tech": 
+    [
+        {
+            "Name": "Julius",
+            "Model": "Macbook Pro 14",
+            "CPU": "M2 Pro",
+            "GPU": "M2 Pro",
+            "CPU Cores": 10,
+            "GPU Cores": 16,
+            "Memory": "16 GB",
+            "Storage": "512 GB"
+        },
+        {
+            "Name": "Bohr",
+            "Model": "iPad Pro 11",
+            "CPU": "M1",
+            "GPU": "M1",
+            "CPU Cores": 8,
+            "GPU Cores": 7,
+            "Memory": "8 GB",
+            "Storage": "128 GB"
+        }
+    ],
+    "Vehicles":
+    [
+        {
+            "Model": "Trek Marlin 7",
+            "Tire Size": "29 in",
+            "Suspension": "RockShox XC 30",
+            "Weight": "31.5 lbs",
+            "Top Speed": "25 mph"
+        },
+        {
+            "Model": "Land Yachtz Drop Hammer",
+            "Tire Size": "69 mm",
+            "Weight": "10 lbs",
+            "Top Speed": "20 mph"
+        }
+    ],
+    "Outdoor Gear":
+    [
+        {
+            "Type": "Backpack",
+            "Model": "REI Flash 55",
+            "Capacity": "55 liters",
+            "Weight": "2 lbs 13 oz",
+            "Material": "Nylon"
+        },
+        {
+            "Type": "Backpack",
+            "Model": "REI Flash 22",
+            "Capacity": "22 liters",
+            "Weight": "14 oz",
+            "Material": "Nylon"
+        },
+        {
+            "Type": "Tent",
+            "Model": "Rei Flash Air 2",
+            "Capacity": "2 people",
+            "Weight": "2 lbs 8 oz",
+            "Material": "Nylon"
+        },
+        {
+            "Type": "Sleeping Bag",
+            "Model": "REI Trailmade 20",
+            "Survival Rating": "21° F",
+            "Comfort Rating": "31° F",
+            "Weight": "3 lbs 4.6 oz",
+            "Material": "Synthetic"
+        },
+        {
+            "Type": "Water Filter",
+            "Model": "Sawyer Mini",
+            "Weight": "2 oz",
+            "Material": "Hollow-fiber membrane"
+        },
+        {
+            "Type": "Stove",
+            "Model": "BRS 3000T",
+            "Weight": "1 oz",
+            "Material": "Titanium"
+        },
+        {
+            "Type": "Headlamp",
+            "Model": "Biolite 330",
+            "Weight": "2.4 oz",
+            "Capacity": "330 lumens"
+        }
+    ],
+    "Instruments":
+    [
+        {
+            "Model": "Taylor BT1",
+            "Size": "3/4 dreadnought",
+            "Top Wood": "Solid Sitka Spruce",
+            "Back and Side Wood": "Layered Walnut",
+            "Nut Width": "1-11/16\"",
+            "Fingerboard": "Ebony",
+            "Frets": 19,
+            "Bridge": "Ebony"
+        }
+    ]
+}
