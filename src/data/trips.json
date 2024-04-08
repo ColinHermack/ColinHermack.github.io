@@ -5,7 +5,13 @@
         "End Date": "2024-03-13",
         "Longitude": 38.06881,
         "Latitude": 81.08290,
-        "Photos": [],
+        "Photos": 
+        [
+            "https://github.com/ColinHermack/new-personal-website/blob/main/public/trips/new-river-gorge-spring-break/EndlessWall.jpg?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/public/trips/new-river-gorge-spring-break/Gorge.jpg?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/public/trips/new-river-gorge-spring-break/SiblingsOrDating.jpeg?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/public/trips/new-river-gorge-spring-break/TudorsBiscuitWorld.jpg?raw=true"
+        ],
         "Descriptions":
         [
 
