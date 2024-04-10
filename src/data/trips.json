@@ -1,10 +1,29 @@
 [
     {
-        "Name": "New River Gorge: Spring break 2024",
+        "Name": "Solar Eclipse Viewing",
+        "Start Date": "2024-04-08",
+        "End Date": "2024-04-08",
+        "Longitude": -85.67338,
+        "Latitude": 40.26379,
+        "Photos": 
+        [
+
+        ],
+        "Descriptions": 
+        [
+
+        ],
+        "Pontifications":
+        [
+            
+        ]
+    },
+    {
+        "Name": "New River Gorge: Spring Break 2024",
         "Start Date": "2024-03-09",
         "End Date": "2024-03-13",
-        "Longitude": 38.06881,
-        "Latitude": 81.08290,
+        "Longitude": -81.08290,
+        "Latitude": 38.06881,
         "Photos": 
         [
             "https://github.com/ColinHermack/new-personal-website/blob/main/public/trips/new-river-gorge-spring-break/EndlessWall.jpg?raw=true",

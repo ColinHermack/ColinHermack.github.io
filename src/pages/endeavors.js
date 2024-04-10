@@ -10,8 +10,8 @@ class Endeavors extends React.Component {
                 <h1>Endeavors</h1>
                 <h2>A catch-all for random stuff that I thought would be interesting to add to this website.</h2>
                 <div id='menu-items-container'>
-                    <a href='../trip-recaps'><div className='endeavor-item'>
-                        <div className='endeavor-title'>Trip Recaps</div>
+                    <a href='../trips'><div className='endeavor-item'>
+                        <div className='endeavor-title'>Trip Logs</div>
                         <div className='endeavor-description'>Summaries and photos of trips I've been on.</div>
                     </div></a>
                     <a href='../stuff'><div className='endeavor-item'>
