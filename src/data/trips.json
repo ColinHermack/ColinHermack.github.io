@@ -1,25 +1,30 @@
 [
     {
-        "Name": "Solar Eclipse Viewing",
+        "Name": "Solar Eclipse Viewing 2024",
+        "Location": "Alexandria, IN",
         "Start Date": "2024-04-08",
-        "End Date": "2024-04-08",
         "Longitude": -85.67338,
         "Latitude": 40.26379,
         "Photos": 
         [
-
+            "https://github.com/ColinHermack/new-personal-website/blob/main/public/trips/solar-eclipse-2024/EclipseCloseUp.jpg?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/public/trips/solar-eclipse-2024/EclipseWide.jpg?raw=true",
+            "https://github.com/ColinHermack/new-personal-website/blob/main/public/trips/solar-eclipse-2024/ColinEclipse.png?raw=true"
         ],
         "Descriptions": 
         [
-
+            "Close up of totality that Elina took with flares visible.",
+            "Wide shot of the sky during totality that I took before screwing up my camera settings by taking pictures of stuff on the ground.",
+            "Hard pic"
         ],
         "Pontifications":
         [
-            
+            "We drove about 2 hours to Alexandria, IN to get within the path of totality and parked outside the library. It was a nice little town with a great library that had an eclipse viewing party and was giving glasses away for free. The experience was great overall. 10/10 would solar eclipse again, highly recommended. Book your AirBnBs for Montana 2044."
         ]
     },
     {
         "Name": "New River Gorge: Spring Break 2024",
+        "Location": "Fayetteville, WV",
         "Start Date": "2024-03-09",
         "End Date": "2024-03-13",
         "Longitude": -81.08290,
@@ -37,7 +42,8 @@
             "Endless Wall? Nah, I prefer endless mud.",
             "Gorge-ous",
             "Bridge walk",
-            "The Tudor's Biscuit World lore is absolutely insane"
+            "The Tudor's Biscuit World lore is absolutely insane",
+            "Goat 0.5"
         ],
         "Pontifications":
         [

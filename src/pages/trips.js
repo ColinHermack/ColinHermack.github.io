@@ -53,14 +53,29 @@ class Trips extends React.Component {
     componentDidMount() {
         let tripData = require('../data/trips.json');
         for (let i = 0; i < tripData.length; i++) {
-            tripData[i]["Start Date"] = new Date(tripData[i]["Start Date"]);
-            tripData[i]["End Date"] = new Date(tripData[i]["End Date"]);
+            if (tripData[i]["Start Date"]) {
+                tripData[i]["Start Date"] = new Date(tripData[i]["Start Date"]);
+                tripData[i]["Start Date"].setTime(tripData[i]["Start Date"].getTime() + (4 * 60 * 60 * 1000))
+            }
+            if (tripData[i]["End Date"]) {
+                tripData[i]["End Date"] = new Date(tripData[i]["End Date"]);
+                tripData[i]["End Date"].setTime(tripData[i]["End Date"].getTime() + (4 * 60 * 60 * 1000))
+            }
         }
         this.setState({trips: tripData});
-        console.log(tripData);
     }
 
     render() {
+        const getTripDate = (trip) => {
+            if (trip["End Date"]) {
+                return (`${trip["Start Date"].toLocaleDateString()} - ${trip["End Date"].toLocaleDateString()}`)
+            } else if (trip["Start Date"]) {
+                return (trip["Start Date"].toLocaleDateString());
+            } else {
+                return null;
+            }
+        }
+
         if (this.state.trips) {
             return (
                 <div id='trips-container'>
@@ -70,9 +85,12 @@ class Trips extends React.Component {
                     <div id='trips-list'>
                         {this.state.trips.map((trip) => {
                             return (
-                                <a href={`../trips/${trip.Name.toLowerCase().replaceAll(":", "").replaceAll(" ", "-")}`} key={trip.Name}>
-                                    <div className='trip-name'>{trip.Name}</div>
-                                    <div className='trip-date'>{trip["Start Date"].toLocaleDateString()} - {trip["End Date"].toLocaleDateString()}</div>
+                                <a href={`../trip/${trip.Name.toLowerCase().replaceAll(":", "").replaceAll(" ", "-")}`} key={trip.Name}>
+                                    <div className='trip-container'>
+                                        <div className='trip-name'>{trip.Name}</div>
+                                        <div className='trip-date'>{getTripDate(trip)}</div>
+                                        <div className='trip-location'>{trip.Location}</div>
+                                    </div>
                                 </a>
                             )
                         })}
