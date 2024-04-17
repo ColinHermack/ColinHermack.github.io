@@ -1,0 +1,8 @@
+{
+  "short_name": "Colin's Website",
+  "name": "Colin Hermack's Personal Website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
