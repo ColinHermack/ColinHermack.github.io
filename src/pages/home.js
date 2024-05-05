@@ -21,8 +21,8 @@ class Home extends React.Component {
                 feature to put on a website.</div>
                 <div className='horizontal-divider'></div>
                 <div id='quick-links'>
-                    <a href='./resume'><div>My Resume</div></a>
-                    <a href='./projects'><div>My Projects</div></a>
+                    <a href='#/resume'><div>My Resume</div></a>
+                    <a href='#/projects'><div>My Projects</div></a>
                 </div>
                 <FooterBar />
             </div>

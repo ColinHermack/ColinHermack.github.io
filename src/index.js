@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home.js';
 import Resume from './pages/resume.js';
 import Projects from './pages/projects.js';
@@ -9,11 +9,13 @@ import Education from './pages/education.js';
 import Endeavors from './pages/endeavors.js';
 import Trips from './pages/trips.js';
 import Trip from './pages/trip.js';
+import Blog from './pages/blog.js';
 import PageNotFound from './pages/unknown.js';
 
-export default function App() {
+
+function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route index element={<Home />} />
                 <Route path="project/:name" element={<Project />} />
@@ -23,11 +25,12 @@ export default function App() {
                 <Route path="endeavors" element={<Endeavors />} />
                 <Route path="trips" element={<Trips />} />
                 <Route path="trip/:name" element={<Trip />} />
+                <Route path="blog" element={<Blog />} />
                 <Route path="*" element={<PageNotFound />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<App/>);

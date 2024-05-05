@@ -11,8 +11,11 @@
 #photo-viewer-container {
     width: 90%;
     margin-top: 25px;
-    min-height: 300px;
-    max-width: 400px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
 }
 
 #trip-photo {
@@ -27,5 +30,46 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--darker-main);
+}
+
+.photo-navigator {
+    border: none;
+    background-color: var(--darker-main);
+    font-size: 2em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--lighter-accent);
+    animation-name: normal-animation;
+    animation-duration: 0.25s;
+}
+
+.photo-navigator:hover {
+    color: var(--light-main);
+    animation-name: hover-animation;
+    animation-duration: 0.25s;
+}
+
+@keyframes hover-animation {
+    from {color: var(--lighter-accent);}
+    to {color: var(--light-main);}
+}
+
+@keyframes normal-animation {
+    from {color: var(--light-main);}
+    to {color: var(--lighter-accent);}
+}
+
+.paragraph {
+    width: 90vw;
+    max-width: 800px;
+    font-weight: 200;
+    margin: 20px;
+}
+
+#trip-description {
+    min-height: 30vh;
 }
 

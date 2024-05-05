@@ -85,7 +85,7 @@ class Trips extends React.Component {
                     <div id='trips-list'>
                         {this.state.trips.map((trip) => {
                             return (
-                                <a href={`../trip/${trip.Name.toLowerCase().replaceAll(":", "").replaceAll(" ", "-")}`} key={trip.Name}>
+                                <a href={`#/trip/${trip.Name.toLowerCase().replaceAll(":", "").replaceAll(" ", "-")}`} key={trip.Name}>
                                     <div className='trip-container'>
                                         <div className='trip-name'>{trip.Name}</div>
                                         <div className='trip-date'>{getTripDate(trip)}</div>

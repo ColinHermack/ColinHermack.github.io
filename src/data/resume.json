@@ -86,6 +86,15 @@
     "Leadership":
     [
         {
+            "Position": "Purdue Outing Club Webmaster",
+            "Start": "May 2024",
+            "End": "Present",
+            "Notes": 
+            [
+                "Helped coordinate development of a new data management system for the Purdue Outing Club"
+            ]
+        },
+        {
             "Position": "Cross Country/Track and Field Captain",
             "Start": "June 2022",
             "End": "June 2023",
@@ -142,6 +151,7 @@
         "ReactJS",
         "SQLite",
         "NodeJS",
-        "Express"
+        "Express",
+        "PostgreSQL"
     ]
 }

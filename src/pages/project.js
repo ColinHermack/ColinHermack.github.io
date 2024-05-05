@@ -10,7 +10,7 @@ class Project extends React.Component {
     }
 
     componentDidMount() {
-        const projectName = window.location.pathname.split("/").slice(-1)[0];
+        const projectName = window.location.href.split("/").slice(-1)[0];
 
         const projectData = require('../data/projects.json');
         for (let i = 0; i < projectData.length; i++) {

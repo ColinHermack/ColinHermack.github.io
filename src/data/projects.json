@@ -2,7 +2,7 @@
     {
         "Name": "purdueoutingclub.com",
         "Short Description": "A collaborative, long-term project with the end goal of centralizing all data and automating tasks for the Purdue Outing Club.",
-        "Long Description": "The goal with this project is to build a system to organize the data of Purdue's quickly growing Outing Club. The club needs a way to manage trip rosters, manage new member sign-up, and keep track of events all in one place. We are currently working to replace the Squarespace website with one coded in React.",
+        "Long Description": "The goal with this project is to build a system to centralize and simplify data management for Purdue's 500+ member Outing Club. The new system will include a full-stack website, with server-side code written using Express and NodeJS. The database will use PostgreSQL. The front-end is built with a combination of ReactJS and static HTML/CSS/JS. All of this is deployed using AWS lightsail.",
         "Technologies":
         [
             "JavaScript",
@@ -14,12 +14,12 @@
             "Express",
             "HelmetJS"
         ],
-        "Pinned": false
+        "Pinned": true
     },
     {
         "Name": "colinhermack.me",
         "Short Description": "My personal website which showcases my resume, projects, and things I find interesting",
-        "Long Description": "You're already here. Feel free to look around.",
+        "Long Description": "This is the second iteration of my personal website, colinhermack.me. It currently displays my projects, resume, education, and logs of trips that I've been on. Eventually I would like to add a blog as well. The entire site is written in React using JSX, which simplified the development process significantly. It is currently frontend only, however all of the site data is stored in JSON files in order to make it easier for me to update information. Eventually I will probably add a backend component to this site with a database, but right now I am busy with college and other projects and don't have the time. Deployment is done through GitHub pages, using the excellent gh-pages NPM module. This makes it possible to deploy react web applications to GitHub pages, though it did require a bit of trickery with the react-router library to work. This means that the site is still using HashRouter, which is basically ancient technology at this point, but it's all that GitHub pages supports at the moment. But deployment using Github pages make it so much easier and more convenient to update the site that it is worth it in my opinion. Updating the live site is as simple as updating the local site and running 'npm run deploy,' and GitHub handles the rest.",
         "Technologies": 
         [
             "HTML",
@@ -100,6 +100,7 @@
             "NodeJS",
             "Express"
         ],
-        "Pinned": true
+        "Pinned": false,
+        "GitHub": "https://github.com/ColinHermack/Twitter-Clone"
     }
 ]

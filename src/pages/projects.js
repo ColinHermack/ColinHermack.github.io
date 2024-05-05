@@ -37,7 +37,7 @@ class Projects extends React.Component {
                     {this.state.projects.map((item) => {
                         if (item.Pinned) {
                             return (
-                                <a href={`../project/${item.Name.toLowerCase().replaceAll(" ", "-")}`}>
+                                <a href={`#/project/${item.Name.toLowerCase().replaceAll(" ", "-")}`}>
                                     <div className='project-container'>
                                         <div className='project-title'>{item.Name}</div>
                                         <div className='project-description'>{item['Short Description']}</div>
@@ -56,7 +56,7 @@ class Projects extends React.Component {
                     {this.state.projects.map((item) => {
                         if (!item.Pinned) {
                             return (
-                                <a href={`../project/${item.Name.toLowerCase().replaceAll(" ", "-")}`}>
+                                <a href={`#/project/${item.Name.toLowerCase().replaceAll(" ", "-")}`}>
                                     <div className='project-container'>
                                         <div className='project-title'>{item.Name}</div>
                                         <div className='project-description'>{item['Short Description']}</div>
