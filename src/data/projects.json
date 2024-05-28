@@ -2,7 +2,7 @@
     {
         "Name": "purdueoutingclub.com",
         "Short Description": "A collaborative, long-term project with the end goal of centralizing all data and automating tasks for the Purdue Outing Club.",
-        "Long Description": "The goal with this project is to build a system to centralize and simplify data management for Purdue's 500+ member Outing Club. The new system will include a full-stack website, with server-side code written using Express and NodeJS. The database will use PostgreSQL. The front-end is built with a combination of ReactJS and static HTML/CSS/JS. All of this is deployed using AWS lightsail.",
+        "Long Description": "The goal with this project is to build a system to centralize and simplify data management for Purdue's 500+ member Outing Club. The new system will include a full-stack website, with server-side code written using Express and NodeJS. The database will use PostgreSQL. The front-end is built with a combination of ReactJS and static HTML/CSS/JS. All of this is deployed using AWS Lightsail. After building a prototype version of the new website, I was elected webmaster for the club and will continue to develop and maintain the site for the next year.",
         "Technologies":
         [
             "JavaScript",
@@ -53,7 +53,7 @@
     {
         "Name": "CS180 Capstone Project",
         "Short Description": "Built a database driver and concurrent server using Java for a virtual marketplace application. Collaborated with four other students to receive a perfect score.",
-        "Long Description": "I can't share much about this project since it was a university assignment and the code and specifics need to be kept confidential. I worked with a team of 5 to build an ecommerce application using Java. I was responsible for the server-side code and wrote roughly 2000 lines to handle client requests and connect with a SQLite database.",
+        "Long Description": "I can't share much about this project since it was a university assignment and the code and specifics need to be kept confidential in order to prevent academic dishonesty. I worked with a team of 5 to build an ecommerce application using Java. I was responsible for the server-side code and wrote roughly 2000 lines to handle client requests and connect with a SQLite database.",
         "Technologies":
         [
             "Java",

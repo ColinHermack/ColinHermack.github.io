@@ -5,11 +5,12 @@
             "School": "Purdue University",
             "Location": "West Lafayette, IN",
             "Start": "August 2023",
-            "End": "December 2026",
-            "GPA": "4.0",
+            "End": "December 2026 (expected)",
+            "GPA": "3.8",
             "Notes": 
             [
                 "B.S. in Computer Science",
+                "B.S. in Mathematics",
                 "Member of the Data Mine"
             ],
             "Courses": 
@@ -91,7 +92,8 @@
             "End": "Present",
             "Notes": 
             [
-                "Helped coordinate development of a new data management system for the Purdue Outing Club"
+                "Helped coordinate development of a new data management system for the Purdue Outing Club",
+                "Developed a full-stack web application using a combination of vanilla HTML/CSS/JS and ReactJS, as well as NodeJS/Express and PostgreSQL"
             ]
         },
         {
@@ -110,10 +112,10 @@
     [
         {
             "Award": "Purdue University Dean's List and Semester Honors",
-            "Date": "December 2023",
+            "Date": "December 2023, May 2024",
             "Notes": 
             [
-                "Awarded after achieving a GPA of 4.0 during first semester"
+                "Awarded after maintaining an overall GPA of 3.8 during my first two semesters at Purdue"
             ]
         },
         {

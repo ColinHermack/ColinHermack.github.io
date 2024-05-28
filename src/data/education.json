@@ -153,6 +153,42 @@
         "Classes": 
         [
             {
+                "Term": "Semester 3",
+                "Classes": 
+                [
+                    {
+                        "Name": "Computer Architecture",
+                        "Number": "CS250",
+                        "Description": ""
+                    },
+                    {
+                        "Name": "Data Structures and Algorithms",
+                        "Number": "CS251",
+                        "Description": ""
+                    },
+                    {
+                        "Name": "Linear Algebra II",
+                        "Number": "MA353",
+                        "Description": ""
+                    },
+                    {
+                        "Name": "Science Writing and Presentation",
+                        "Number": "COM217",
+                        "Description": ""
+                    },
+                    {
+                        "Name": "Sophomore Development Seminar",
+                        "Number": "CS291",
+                        "Description": ""
+                    },
+                    {
+                        "Name": "The Data Mine",
+                        "Number": "TDM201",
+                        "Description": ""
+                    }
+                ]
+            },
+            {
                 "Term": "Semester 2",
                 "Classes": 
                 [
