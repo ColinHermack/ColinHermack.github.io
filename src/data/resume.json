@@ -82,17 +82,6 @@
                 "Performed a variety of roles in a fast-paced training enviroment",
                 "Customer service, cash handling, training new hires"
             ]
-        },
-        {
-            "Organization": "Project Lead the Way",
-            "Position": "Capstone Project",
-            "Location": "Medford, NJ",
-            "Start": "September 2020",
-            "End": "June 2023",
-            "Notes":
-            [
-                "Worked with a small team to develop a system for water quality monitoring in natural enviroments utilizing Arduino and C++"
-            ]
         }
     ],
     "Leadership":
