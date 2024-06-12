@@ -61,6 +61,17 @@
     "Experience": 
     [
         {
+            "Organization": "W.R. Berkley Corporation",
+            "Position": "Software Engineering Intern",
+            "Location": "Mount Laurel, NJ",
+            "Start": "June 2024",
+            "End": "Present",
+            "Notes": 
+            [
+                "Work with .NET Core and other Microsoft developer tools to build and deploy applications"
+            ]
+        },
+        {
             "Organization": "Skyler's Hoagies",
             "Position": "Restaurant Crew Member",
             "Location": "Mount Laurel, NJ",
