@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.57cdb0a8.css",
-    "main.js": "/static/js/main.8125408e.js",
+    "main.js": "/static/js/main.4b0317f0.js",
     "static/media/headshot.jpg": "/static/media/headshot.4f953d5aa9634485e250.jpg",
     "static/media/obiwan.jpg": "/static/media/obiwan.bbacd895f61d45e1855f.jpg",
     "index.html": "/index.html",
     "main.57cdb0a8.css.map": "/static/css/main.57cdb0a8.css.map",
-    "main.8125408e.js.map": "/static/js/main.8125408e.js.map"
+    "main.4b0317f0.js.map": "/static/js/main.4b0317f0.js.map"
   },
   "entrypoints": [
     "static/css/main.57cdb0a8.css",
-    "static/js/main.8125408e.js"
+    "static/js/main.4b0317f0.js"
   ]
 }
